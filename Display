@@ -1,0 +1,17 @@
+public class Display{
+	public int row = 12;
+	public int col = 12;
+	public int[][] grid = new int[col][row];
+	
+	public void map(){
+		
+		for(int i = 0; i < col; i++){
+			for(int a = 0; a < row; a++){
+				System.out.printf("%5d ", grid[i][a]);
+			}
+			System.out.println();
+	
+	}
+	
+	
+}
