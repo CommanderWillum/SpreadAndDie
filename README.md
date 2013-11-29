@@ -1,0 +1,4 @@
+SpreadAndDie
+============
+
+A game 
